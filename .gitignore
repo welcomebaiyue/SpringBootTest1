@@ -1,0 +1,4 @@
+# Project exclude paths
+/Test-admin/target/
+/Test-blog/target/
+/Test-framework/target/
