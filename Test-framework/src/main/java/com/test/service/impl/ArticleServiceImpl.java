@@ -14,7 +14,7 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
     public ResponseResult hotArticleList() {
         LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
         //正是文章
-        queryWrapper.eq(Article);
+
 
         page();
         return null;
